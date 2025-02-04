@@ -157,6 +157,13 @@ h3.intro {
 .main-menu {
   margin-top: 10px;
   margin-bottom: 20px;
+  margin-right: 10px;
+}
+.main-menu .pagination {
+  justify-content: end;
+}
+.main-menu .menu-item {
+  padding-left: 15px;
 }
 .menu {
   margin-top: 10px;

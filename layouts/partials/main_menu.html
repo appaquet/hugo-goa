@@ -1,7 +1,9 @@
 {{ with .Site.Menus.main }}
-<section id="main-menu-pane" class="text-center main-menu">
+<section id="main-menu-pane" class="main-menu">
+  <ul class="pagination">
   {{ range sort . }}
-  <h4><a class="menu-item" href="{{ .URL }}">{{ .Name }}</a></h4>
+  <li><a class="menu-item" href="{{ .URL }}">{{ .Name }}</a></li>
   {{ end }}
+  </ul>
 </section>
 {{ end }}
